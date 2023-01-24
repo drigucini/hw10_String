@@ -4,11 +4,6 @@ public class Main {
         task1();
         task2();
         task3();
-        task4();
-        task5();
-        task6();
-        task7();
-        task8();
     }
 
 
@@ -49,7 +44,7 @@ public class Main {
 
     }
     public static void task1 () {
-        System.out.println("\nTask 1");
+        System.out.println("\nTask 0, Theory");
         String firstName = "Ivan";
         String lastName = "Ivanov";
         String middleName = "Ivanovich";
@@ -60,29 +55,15 @@ public class Main {
 
     public static void task2 () {
         System.out.println("\nTask 2");
+        String fullName = "Ivan Ivanovich Ivanov";
+        System.out.println("Employee's name for the report is " + fullName.toUpperCase());
+
     }
 
     public static void task3 () {
         System.out.println("\nTask 3");
-    }
-
-    public static void task4 () {
-        System.out.println("\nTask 4");
-    }
-
-    public static void task5 () {
-        System.out.println("\nTask 5");
-    }
-
-    public static void task6 () {
-        System.out.println("\nTask 6");
-    }
-
-    public static void task7 () {
-        System.out.println("\nTask 7");
-    }
-
-    public static void task8 () {
-        System.out.println("\nTask 8");
+        String fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё","е");
+        System.out.println("Данные ФИО сотрудника - " + fullName);
     }
 }
